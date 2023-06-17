@@ -1,0 +1,139 @@
+{
+    "alembic_version": [
+        {
+            "version_num": "3b5352adc6a8"
+        }
+    ],
+    "tag": [
+        {
+            "id": 1,
+            "name": "tag-adm"
+        },
+        {
+            "id": 2,
+            "name": "tag-good"
+        },
+        {
+            "id": 3,
+            "name": "tag-public"
+        }
+    ],
+    "user_model": [
+        {
+            "id": 1,
+            "username": "admin",
+            "password_hash": "$6$rounds=656000$RXFoGW1zvmEjU/6Y$kHVU531QeqodUCyLMvn9wE5Sx1yudb/7x0FHbS7x9Efoi1P9Nx.tb1wmkt7WeVG5PBhsICe/JwZMT4pMR7l1l1",
+            "role": "admin"
+        },
+        {
+            "id": 2,
+            "username": "Ivan",
+            "password_hash": "$6$rounds=656000$T8jN3/8UtD2JsmSt$4NMSbh3bO2jJeZRzXkG6I4y5wdn.T78.KrrgOSPmddC.UF4YWjhqAw3Vh0wnOubbBdLT.qKytedjzTALUteA8.",
+            "role": "simple_user"
+        },
+        {
+            "id": 3,
+            "username": "Petr",
+            "password_hash": "$6$rounds=656000$dQ7Daeh/yQlR0UpI$TlkEq283QPmbPI6KrTPq3wJWJ56hCta5J03LMuR6gc/oIXMu1s0zlL4YTs.z6hT9xTnqeIlZwr0mkvuX2hbGZ/",
+            "role": "simple_user"
+        }
+    ],
+    "note_model": [
+        {
+            "id": 1,
+            "author_id": 1,
+            "text": "admin's note-1",
+            "private": true
+        },
+        {
+            "id": 2,
+            "author_id": 1,
+            "text": "admin's note-2",
+            "private": true
+        },
+        {
+            "id": 3,
+            "author_id": 1,
+            "text": "admin's note-3",
+            "private": true
+        },
+        {
+            "id": 4,
+            "author_id": 2,
+            "text": "Ivan's note-1",
+            "private": false
+        },
+        {
+            "id": 5,
+            "author_id": 2,
+            "text": "Ivan's note-2",
+            "private": false
+        },
+        {
+            "id": 6,
+            "author_id": 3,
+            "text": "Petr's note-1",
+            "private": true
+        },
+        {
+            "id": 7,
+            "author_id": 3,
+            "text": "Petr's note-2",
+            "private": true
+        },
+        {
+            "id": 8,
+            "author_id": 3,
+            "text": "Petr's note-3",
+            "private": false
+        },
+        {
+            "id": 9,
+            "author_id": 3,
+            "text": "Petr's note-4",
+            "private": false
+        }
+    ],
+    "tags": [
+        {
+            "tag_id": 1,
+            "note_model_id": 1
+        },
+        {
+            "tag_id": 1,
+            "note_model_id": 2
+        },
+        {
+            "tag_id": 1,
+            "note_model_id": 3
+        },
+        {
+            "tag_id": 2,
+            "note_model_id": 1
+        },
+        {
+            "tag_id": 2,
+            "note_model_id": 4
+        },
+        {
+            "tag_id": 2,
+            "note_model_id": 6
+        },
+        {
+            "tag_id": 3,
+            "note_model_id": 4
+        },
+        {
+            "tag_id": 3,
+            "note_model_id": 5
+        },
+        {
+            "tag_id": 3,
+            "note_model_id": 8
+        },
+        {
+            "tag_id": 3,
+            "note_model_id": 9
+        }
+    ]
+}
